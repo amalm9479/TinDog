@@ -1,0 +1,175 @@
+#title {
+  background-color: #F42D51;
+  color: #fff;
+}
+
+button {
+  margin-right: auto;
+}
+
+.continer-fluid {
+  padding: 3% 12%;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+.h11 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4.5rem;
+  line-height: 1.5em;
+}
+.h22{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1em;
+}
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem !important;
+  font-weight: bold;
+
+}
+
+.navbar1 {
+  padding-bottom: 4rem;
+  display: flex;
+}
+
+.images1 {
+  transform: rotate(25deg);
+width: 20%;
+right: 20%;
+position: absolute;
+}
+
+#features{
+
+  padding: 7% 15%;
+  background-color: #ffffff;
+  position: relative;
+  color: #ef8171;
+}
+.feature{
+text-align: center;
+  font-family: 'Montserrat';
+
+}
+.ch{
+  padding: 4.5%;
+}
+.ch:hover{
+  color: #F42D51 ;
+}
+.p1{
+  color: grey;
+margin: 0 12% ;
+}
+h3{
+  color: black;
+}
+
+.nav-item {
+  padding: 0 16px;
+}
+
+.nav-link {
+  font-family: 'Montserrat-Light';
+  font-size: 1.3rem;
+}
+
+.DB {
+  margin: 5% 3%;
+}
+
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8171;
+  color: #ffffff ;
+
+}
+
+.carousel-item{
+  padding: 7% 15%;
+
+}
+.testimonial-text{
+  font-weight: bold;
+  line-height:1.5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem; !important
+
+}
+ .testimonial_image{
+   width: 20%;
+   border-radius: 100%;
+   margin: 20px;
+ }
+
+ #press{
+   background-color: #ed8171;
+   text-align: center;
+   padding-bottom: 3%;
+ }
+ .press_logo{
+   width: 15%;
+   margin: 20px 20px 50px;
+ }
+
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+.col{
+  padding: 3% 2%;
+}
+#cta  {
+  background-color: #F42D51;
+  padding:  7% 18%;
+  text-align: center;
+}
+
+
+.h33{
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+
+}
+.bb{
+  padding: 0 20%;
+}
+
+
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+
+.foot{
+  margin: 20px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .images1{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
